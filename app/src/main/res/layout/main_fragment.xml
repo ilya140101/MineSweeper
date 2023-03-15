@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/main_image_size"
+            android:layout_height="@dimen/main_image_size"
+            android:layout_marginTop="@dimen/main_image_margin"
+            android:background="@drawable/finish"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/super_easy_difficulty"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            style="@style/difficulty">
+        </Button>
+
+        <Button
+            android:id="@+id/easy_difficulty"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/super_easy_difficulty"
+            style="@style/difficulty">
+        </Button>
+
+        <Button
+            android:id="@+id/normal_difficulty"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/easy_difficulty"
+            style="@style/difficulty"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/custom_difficulty"
+            android:text="@string/custom_difficulty"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/normal_difficulty"
+            style="@style/difficulty"
+            >
+        </Button>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

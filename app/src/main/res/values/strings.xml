@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="super_easy_difficulty">5X5 (3 mine)</string>
+    <string name="easy_difficulty">9X9 (10 mine)</string>
+    <string name="normal_difficulty">16X16 (40 mine)</string>
+    <string name="custom_difficulty">Custom</string>
+    <string name="mine">mine</string>
+
+    <string name="exit_title">Exit</string>
+    <string name="exit_text">Do you really want to complete the game?</string>
+
+
+    <string name="messages_header">Custom mode</string>
+    <string name="height">Height:</string>
+    <string name="width">Width:</string>
+    <string name="count_mine">Count mine:</string>
+    <string name="start_button">Start</string>=
+    <string name="alert_title">Exit</string>
+    <string name="alert_text">The maximum number of mines for these sizes:</string>
+    <string name="zero_text">The values cannot be equal to 0</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="digital_textView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:fontFamily">@font/digital_fort</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">20pt</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:textSize">70sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:width">50dp</item>
+        <item name="android:height">50dp</item>
+
+    </style>
+
+    <style name="difficulty">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">100dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+    </style>
+
+    <style name="textView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="editText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">number</item>
+        <item name="android:hint">8</item>
+    </style>
+</resources>

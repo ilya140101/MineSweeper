@@ -1,0 +1,21 @@
+<resources>
+    <!-- Reply Preference -->
+
+    <integer-array name="super_easy">
+        <item>5</item>
+        <item>5</item>
+        <item>3</item>
+    </integer-array>
+
+    <integer-array name="easy">
+        <item>8</item>
+        <item>8</item>
+        <item>10</item>
+    </integer-array>
+
+    <integer-array name="normal">
+        <item>16</item>
+        <item>16</item>
+        <item>40</item>
+    </integer-array>
+</resources>
